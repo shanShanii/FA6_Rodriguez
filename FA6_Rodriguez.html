@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Rodriguez, Shania Lynn </title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Shania Lynn M. Rodriguez">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="revised" content="28-11-2022">
+
+		<style>
+				a.link1:link {
+					background-color: green;
+					font-size: 25px;
+					margin: 10px;
+					text-decoration: none;
+					padding: 10px;
+					color: white;
+				}
+				
+				a.link1:visited {
+					background-color: pink;
+					color: brown;
+				}
+						
+				a.link1:hover {
+					background-color: lightgreen;
+					color:red;
+				}
+				
+				a.link1:active {
+					background-color: yellow;
+					color: orange;
+				}
+				
+				a.link2:link {
+					background-color: blue;
+					font-size: 25px;
+					margin: 10px;
+					text-decoration: none;
+					padding: 10px;
+					color: white;
+				}
+				
+				a.link2:visited {
+					background-color: magenta;
+					color: lightblue;
+				}
+						
+				a.link2:hover {
+					background-color: lightgreen;
+					color:red;
+				}
+				
+				a.link2:active {
+					background-color: yellow;
+					color: orange;
+				}
+		
+				body {
+					padding:20px;
+				}
+				
+				.links div {
+					border: solid black 1px;
+					width:200px;
+					height: 150px;
+					padding: 10px;
+					margin-top:50px;
+				}
+				
+				div:target#div1 {
+					display: block;
+					background-color: black;
+					color: yellow;
+					padding: 10px;
+				}
+				
+				div:target#div2 {
+					display: block;
+					background-color: #079799;
+					color: yellow;
+					border: dotted green 10px;
+					padding: 10px;
+				}
+
+		</style>
+	</head>
+	
+	<body>
+			<div class="links">
+			
+			<a class="link1" href="#div1" target="_self">
+							First Link
+			</a>
+			
+			<a class="link2" href="#div2" target="_self">
+							Second Link
+			</a>
+			
+	
+			<div id="div1"> 
+				<h2> Div 1 here </h2>
+			</div>
+			<br>
+			<div id="div2">
+				<h2> Div 2 here </h2>
+			</div>
+			</div>
+	</body>
+</html>
+					
+		
